@@ -1,0 +1,48 @@
+
+#  Create class 
+POST http://localhost:3333/classes
+content-type: application/json
+
+{
+  "name": "Alex Gomes",
+  "avatar": "https://avatars1.githubusercontent.com/u/49795688?s=460&u=6029d8a6df7d36d9407f003efb73e3aa2205edc9&v=4",
+  "whatsapp": "619940207778",
+  "bio": "Futuro programador fullstack.",
+  "subject": "Matemática",
+  "cost": 80,
+  "schedule": [
+    { "week_day": 1, "from": "8:00", "to": "12:00"},
+    { "week_day": 3, "from": "9:00", "to": "14:00"},
+    { "week_day": 5, "from": "7:00", "to": "10:00"}
+  ]
+}
+
+###
+
+# List classes
+GET http://localhost:3333/classes
+  ?week_day=1
+  &subject=Matemática
+  &time=10:00
+
+###
+
+# Create connections 
+POST http://localhost:3333/connections
+Content-Type: application/json
+
+{
+  "user_id": 1
+}
+
+
+###
+
+# List total connections 
+GET http://localhost:3333/connections
+
+
+###
+
+# Listar todos professores 
+GET http://localhost:3333/teachers
