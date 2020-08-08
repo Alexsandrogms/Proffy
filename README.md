@@ -35,7 +35,7 @@
 ### Mobile Screenshot
 
 <div>
-   <img src="./.github/home-mobile.png" width="180">
+   <img src="./.github/Home-mobile.png" width="180">
    <img src="./.github/list-mobile.png" width="180">
 </div>
 
