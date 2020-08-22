@@ -52,7 +52,7 @@ This project was made using the follow technologies:
 
 ```bash
 # Clone Repository
-$ git clone https://github.com/RafaelGoulartB/Proffy.git
+$ git clone https://github.com/Alexsandrogms/Proffy.git
 ```
 
 ### 📦 Run Project
